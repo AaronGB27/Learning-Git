@@ -1,0 +1,12 @@
+creating_user = input("Enter a name: ").capitalize()
+creating_pin = int(input("Enter a pin: "))
+print("Enter your credential your username and pin to get the access")
+user = input("Username: ").capitalize
+pin = int("Pin: ")
+if user == creating_user:
+  if pin == creating_pin :
+    print("Access allowed")
+  else
+    print("Denied access")
+else:
+  print("Error username incorrect, Denied access")
