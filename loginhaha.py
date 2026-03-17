@@ -6,7 +6,7 @@ pin = int("Pin: ")
 if user == creating_user:
   if pin == creating_pin :
     print("Access allowed")
-  else
+  else:
     print("Denied access")
 else:
   print("Error username incorrect, Denied access")
